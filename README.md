@@ -3,7 +3,7 @@
 
 [![Arduino](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/ArduinoLogo_®.svg/314px-ArduinoLogo_®.svg.png)](https://www.arduino.cc)
 
-[![LightDeck](https://github.com/AndreaLunaro/LightDeck/blob/Images/camphoto_824023566.jpg)]()
+<img width="512" alt="Assembled" src="https://github.com/AndreaLunaro/LightDeck/blob/Images/Assembled.jpg">
 
 Light Deck is an open-source MIDI Lightroom controller. Source code, PCB schematics ad 3D case files are all available and fully customizable.
 
@@ -47,26 +47,37 @@ Once you buy the fundamental components, to be able to assemble them you will ne
 To complete the project it is possible to 3D print a case and the labels to have all the writings related to the controls also on the case. Also in this case the STL files of the case and the editable files of fusion 360 are available for download.
 
 
-## Installation
+## Mount the case
 
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
+Following these instructions, it is possible to mount the PCB and the supports for the buttons inside the case.
+The procedure is quite intuitive, in fact, if you decide to use high tactile buttons instead of silicone ones everything will be simple and immediate.
+<img width="512" alt="Assembled" src="https://github.com/AndreaLunaro/LightDeck/blob/Images/AllComonent.jpeg">
 
-Install the dependencies and devDependencies and start the server.
+The first thing to do is to print and cut out the stickers that are necessary to understand which controls you are going to operate. If you don't have any sticker paper, you can use normal paper, and use our double-sided tape to stick it on the case.
 
-```sh
-cd dillinger
-npm i
-node app
-```
+I also recommend that you plaster and paint the case to give it a cleaner look.
 
-For production environments...
+Now you can place the pcb in the base, and match the three holes of the board with the three pins on the case:
+<img width="512" alt="Assembled" src="https://github.com/AndreaLunaro/LightDeck/blob/Images/PCBinBase.jpeg">
 
-```sh
-npm install --production
-NODE_ENV=production node app
-```
+Then on each button place the 3D printed support and make sure they are all straight:
+<img width="512" alt="Assembled" src="https://github.com/AndreaLunaro/LightDeck/blob/Images/ButtonMount.jpeg">
 
-## Plugins
+After that you can position the upper part of the case so that all the power rods and all the button supports fit, this is the most difficult part, if you have problems try to help you with a small turn to align the supports that could be moved:
+<img width="512" alt="Assembled" src="https://github.com/AndreaLunaro/LightDeck/blob/Images/AllPotMount.jpeg">
+
+Start putting all the knobs on the potentiometers making sure to align the tab as much as possible with the symbols tapped on the sticker:
+
+<img width="512" alt="Assembled" src="https://github.com/AndreaLunaro/LightDeck/blob/Images/PotMount.jpeg">
+
+Having done that you can put caps on the button mounts are an optional thing, but they provide a larger contact surface:
+<img width="512" alt="Assembled" src="https://github.com/AndreaLunaro/LightDeck/blob/Images/ButtonCapMount.jpeg">
+
+Once finished you should get something similar to the picture:
+
+<img width="512" alt="Assembled" src="https://github.com/AndreaLunaro/LightDeck/blob/Images/Assembled.jpg">
+
+## Installation of the profiles on MIDI2Lr
 
 Dillinger is currently extended with the following plugins.
 Instructions on how to use them in your own application are linked below.
@@ -172,3 +183,4 @@ MIT
    [Rv09 10k Potentiometers]: <https://it.aliexpress.com/item/1005001489136961.html?spm=a2g0o.productlist.0.0.735c47a5YHggVA&algo_pvid=072d6963-011d-4a81-8e05-94d830fb1398&algo_exp_id=072d6963-011d-4a81-8e05-94d830fb1398-0&pdp_ext_f=%7B%22sku_id%22%3A%2212000016318752136%22%7D>
    [Easy EDA]: <https://easyeda.com>
 
+[![IMAGE ALT TEXT HERE](https://i.ytimg.com/vi/ovOnqaat_Ag/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC9kwkBMftg0VgWxX0F-DltHW4c_A)](https://www.youtube.com/results?search_query=gatto+fiero+zeb89+)
