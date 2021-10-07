@@ -3,7 +3,7 @@
 
 [![Arduino](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/ArduinoLogo_®.svg/314px-ArduinoLogo_®.svg.png)](https://www.arduino.cc)
 
-
+[![LightDeck](https://github.com/AndreaLunaro/LightDeck/blob/Images/camphoto_824023566.jpg9)]
 
 Light Deck is an open-source MIDI Lightroom controller. Source code, PCB schematics ad 3D case files are all available and fully customizable.
 
