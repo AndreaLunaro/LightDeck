@@ -99,7 +99,7 @@ There you have already finished with the installation, simple isn't it?
 
 Below is a short video demonstration of how the LightDeck works:
 
-[![IMAGE ALT TEXT HERE](https://i.ytimg.com/vi/ovOnqaat_Ag/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC9kwkBMftg0VgWxX0F-DltHW4c_A)](https://www.youtube.com/results?search_query=gatto+fiero+zeb89+)
+[![Demo](https://i.ytimg.com/vi/1icHaoc9lCU/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDj1xGIn1QekBRq72owKwd6D9e6YA)](https://www.youtube.com/watch?v=1icHaoc9lCU)
 
 
 ## License
