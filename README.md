@@ -78,101 +78,33 @@ Once finished you should get something similar to the picture:
 <img width="512" alt="Assembled" src="https://github.com/AndreaLunaro/LightDeck/blob/Images/Assembled.jpg">
 
 ## Installation of the profiles on MIDI2Lr
+The code to load on the Arduino is very simple but to compile it as mentioned above you need the library [Control Surface].
 
-Dillinger is currently extended with the following plugins.
-Instructions on how to use them in your own application are linked below.
+Before you can use the midi controller you obviously need to have a version of Lightroom installed (either Classic or the CC version). Then install the MIDI2Lr plug in and you're almost ready to go.
 
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+First download the three xml profiles you find in the folders and upload them to a profile folder.
 
-## Development
+<img width="512" alt="Assembled" src="https://github.com/AndreaLunaro/LightDeck/blob/Images/SaveProfiles.png">
 
-Want to contribute? Great!
+Then open Lightroom and go to File/Plug-in Extras/General Options, here in the profiles section enter the names of the downloaded profiles and put them in the appropriate folder, save and exit.
 
-Dillinger uses Gulp + Webpack for fast developing.
-Make a change in your file and instantaneously see your updates!
+<img width="512" alt="Assembled" src="https://github.com/AndreaLunaro/LightDeck/blob/Images/OpenOptions.png">
+<img width="512" alt="Assembled" src="https://github.com/AndreaLunaro/LightDeck/blob/Images/WriteProfiles.png">
 
-Open your favorite Terminal and run these commands.
+From the Control Panel of MIDI2Lr with Load button load one of the three profiles to start (you will be able to select profiles then pushing Hue, Lum, Sat buttons), and connect the LightDeck. Try to move some enhancement to see if the plugin receives correctly the data.
 
-First Tab:
+There you have already finished with the installation, simple isn't it?
 
-```sh
-node app
-```
+## Video Demo
 
-Second Tab:
+Below is a short video demonstration of how the LightDeck works:
 
-```sh
-gulp watch
-```
+[![IMAGE ALT TEXT HERE](https://i.ytimg.com/vi/ovOnqaat_Ag/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC9kwkBMftg0VgWxX0F-DltHW4c_A)](https://www.youtube.com/results?search_query=gatto+fiero+zeb89+)
 
-(optional) Third:
-
-```sh
-karma test
-```
-
-#### Building for source
-
-For production release:
-
-```sh
-gulp build --prod
-```
-
-Generating pre-built zip archives for distribution:
-
-```sh
-gulp build dist --prod
-```
-
-## Docker
-
-Dillinger is very easy to install and deploy in a Docker container.
-
-By default, the Docker will expose port 8080, so change this within the
-Dockerfile if necessary. When ready, simply use the Dockerfile to
-build the image.
-
-```sh
-cd dillinger
-docker build -t <youruser>/dillinger:${package.json.version} .
-```
-
-This will create the dillinger image and pull in the necessary dependencies.
-Be sure to swap out `${package.json.version}` with the actual
-version of Dillinger.
-
-Once done, run the Docker image and map the port to whatever you wish on
-your host. In this example, we simply map port 8000 of the host to
-port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
-
-```sh
-docker run -d -p 8000:8080 --restart=always --cap-add=SYS_ADMIN --name=dillinger <youruser>/dillinger:${package.json.version}
-```
-
-> Note: `--capt-add=SYS-ADMIN` is required for PDF rendering.
-
-Verify the deployment by navigating to your server address in
-your preferred browser.
-
-```sh
-127.0.0.1:8000
-```
 
 ## License
 
-MIT
-
 **Free Software, Hell Yeah!**
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
 
    [MIDI2Lr]: <https://rsjaffe.github.io/MIDI2LR/>
@@ -183,4 +115,3 @@ MIT
    [Rv09 10k Potentiometers]: <https://it.aliexpress.com/item/1005001489136961.html?spm=a2g0o.productlist.0.0.735c47a5YHggVA&algo_pvid=072d6963-011d-4a81-8e05-94d830fb1398&algo_exp_id=072d6963-011d-4a81-8e05-94d830fb1398-0&pdp_ext_f=%7B%22sku_id%22%3A%2212000016318752136%22%7D>
    [Easy EDA]: <https://easyeda.com>
 
-[![IMAGE ALT TEXT HERE](https://i.ytimg.com/vi/ovOnqaat_Ag/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC9kwkBMftg0VgWxX0F-DltHW4c_A)](https://www.youtube.com/results?search_query=gatto+fiero+zeb89+)
