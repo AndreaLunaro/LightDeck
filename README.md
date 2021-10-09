@@ -16,7 +16,7 @@ Light Deck is an open-source MIDI Lightroom controller. Source code, PCB schemat
 
 - All the controls from the basics tab are available  
 - Copy and paste settings between photos
-- Controls fro the HSL tab are available (Sat, Lum, Hue profiles)
+- Controls for the HSL tab are available (Sat, Lum, Hue profiles)
 - Basic Transformation, Correction and Details controls are available
 - Buttons to navigate between photos and to export
 - Of course undo and redo button are present too (
