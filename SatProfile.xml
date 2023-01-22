@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings>
+  <setting channel="12" controller="7" command_string="VignetteAmount"/>
+  <setting channel="11" controller="7" command_string="LensManualDistortionAmount"/>
+  <setting channel="14" controller="94" command_string="profile3"/>
+  <setting channel="15" controller="94" command_string="profile2"/>
+  <setting channel="16" controller="94" command_string="profile1"/>
+  <setting channel="11" controller="94" command_string="Undo"/>
+  <setting channel="10" controller="94" command_string="Redo"/>
+  <setting channel="4" controller="94" command_string="RotateLeft"/>
+  <setting channel="12" controller="94" command_string="ShoVwdevelop_before"/>
+  <setting channel="13" controller="94" command_string="ShoVwdevelop_before"/>
+  <setting channel="5" controller="94" command_string="openExportDialog"/>
+  <setting channel="7" controller="94" command_string="Prev"/>
+  <setting channel="6" controller="94" command_string="Next"/>
+  <setting channel="2" controller="94" command_string="EnableDetail"/>
+  <setting channel="15" controller="7" command_string="Sharpness"/>
+  <setting channel="14" controller="7" command_string="LuminanceSmoothing"/>
+  <setting channel="16" controller="7" command_string="ColorNoiseReduction"/>
+  <setting channel="8" controller="94" command_string="EnableLensCorrections"/>
+  <setting channel="13" controller="7" command_string="GrainSize"/>
+  <setting channel="6" controller="7" command_string="PerspectiveVertical"/>
+  <setting channel="7" controller="7" command_string="PerspectiveHorizontal"/>
+  <setting channel="8" controller="7" command_string="PerspectiveRotate"/>
+  <setting channel="10" controller="7" command_string="PerspectiveScale"/>
+  <setting channel="9" controller="7" command_string="PerspectiveAspect"/>
+  <setting channel="3" controller="94" command_string="EnableTransform"/>
+  <setting channel="9" controller="94" command_string="LRCopy"/>
+  <setting channel="1" controller="94" command_string="LRPaste"/>
+  <setting channel="13" controller="10" command_string="Highlights"/>
+  <setting channel="2" controller="7" command_string="Clarity"/>
+  <setting channel="14" controller="10" command_string="Shadows"/>
+  <setting channel="3" controller="7" command_string="Dehaze"/>
+  <setting channel="10" controller="10" command_string="Tint"/>
+  <setting channel="9" controller="10" command_string="Temperature"/>
+  <setting channel="11" controller="10" command_string="Exposure"/>
+  <setting channel="12" controller="10" command_string="Contrast"/>
+  <setting channel="1" controller="7" command_string="Texture"/>
+  <setting channel="15" controller="10" command_string="Whites"/>
+  <setting channel="4" controller="7" command_string="Vibrance"/>
+  <setting channel="16" controller="10" command_string="Blacks"/>
+  <setting channel="5" controller="7" command_string="Saturation"/>
+  <setting channel="8" controller="10" command_string="SaturationAdjustmentMagenta"/>
+  <setting channel="7" controller="10" command_string="SaturationAdjustmentPurple"/>
+  <setting channel="6" controller="10" command_string="SaturationAdjustmentBlue"/>
+  <setting channel="5" controller="10" command_string="SaturationAdjustmentAqua"/>
+  <setting channel="4" controller="10" command_string="SaturationAdjustmentGreen"/>
+  <setting channel="3" controller="10" command_string="SaturationAdjustmentYellow"/>
+  <setting channel="2" controller="10" command_string="SaturationAdjustmentOrange"/>
+  <setting channel="1" controller="10" command_string="SaturationAdjustmentRed"/>
+</settings>
